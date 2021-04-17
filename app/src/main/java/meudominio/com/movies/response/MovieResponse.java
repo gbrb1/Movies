@@ -5,9 +5,9 @@ import com.google.gson.annotations.SerializedName;
 
 import meudominio.com.movies.models.MovieModel;
 
-//this class is for single movie request
+//classe para se obter um único filme
 public class MovieResponse {
- //1 finding the movie object
+ //buscando o objeto 'filme'
     @SerializedName("results")
     @Expose()
     private MovieModel movie;

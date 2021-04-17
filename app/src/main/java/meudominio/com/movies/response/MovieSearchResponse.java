@@ -7,7 +7,7 @@ import java.util.List;
 
 import meudominio.com.movies.models.MovieModel;
 
-//this class is for getting multiple movies (movie list) - popular movies
+//buscando uma lista de filmes populares
 public class MovieSearchResponse {
     @SerializedName("total_results")
     @Expose()

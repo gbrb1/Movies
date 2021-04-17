@@ -3,6 +3,8 @@ package meudominio.com.movies.models;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+//modelo do MVVM
+
 public class MovieModel implements Parcelable {
     private String title;
     private String poster_path;

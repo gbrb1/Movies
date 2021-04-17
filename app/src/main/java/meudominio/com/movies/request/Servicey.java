@@ -4,6 +4,7 @@ import meudominio.com.movies.utils.Credentials;
 import meudominio.com.movies.utils.MovieApi;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+//Serviço MVVM
 
 public class Servicey {
 
@@ -14,9 +15,9 @@ public class Servicey {
 
     private static Retrofit retrofit = retrofiBuilder.build();
 
-    private MovieApi movieApi = retrofit.create(MovieApi.class);
+    private static MovieApi movieApi = retrofit.create(MovieApi.class);
 
-    public MovieApi getMovieApi(){
+    static public MovieApi getMovieApi(){
         return movieApi;
     }
 
